@@ -2,9 +2,9 @@ using System;
 
 namespace WebApplication1.Models
 {
-    public class ErrorViewMode-098
+    public class ErrorViewMode
     {
-        public string RequestId { get; set; }lkkl
+        public string RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
